@@ -1,0 +1,29 @@
+.field {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin-bottom: 20px;
+	width: 40%;
+
+	label {
+		margin-bottom: 8px;
+	}
+
+	input, textarea {
+		border: 1px solid #d3d3d3;
+		outline: none;
+		padding: 10px;
+		border-radius: 5px;
+		color: black !important;
+
+		&.error {
+			border-color: red;
+		}
+	}
+
+	.error {
+		color: red;
+		margin-top: 4px;
+	}
+}
+
